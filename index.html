@@ -1,48 +1,82 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kreatywna lista</title>
-    <style>
-        ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        ul li {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-        }
-
-        ul li img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
-    </style>
+    <title>Projekty MP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<header> 
+<center><strong>PROJEKTY MILOSZ PROC</strong></center>
+<p id="date"></p>
+
+
+</header>
 <body>
-    <ul>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza1/">Zadanie 1 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza2/">Zadanie 2 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza3/">Zadanie 3 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza4/">Zadanie 4 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza5/">Zadanie 5 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza6/"> Zadanie 6</a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza7/">Zadanie 7 </a></li>
-        <li><a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza8/">Zadanie 8 </a></li>
-    </ul>
+    <nav>
+        
+        <a href="index.html">Strona głowna</a>
+        <a href="projektymenu.html">Projekty</a>
+        <a href="omnie.html">o mnie</a>
+        <a href="kontakt.html">Kontakt</a>
+
+
+    </nav>
+
+
+   <center> 
+
+   <h3>HTML</h3> 
+    
+    
+    
+
+   <ul>
+            
+    <li>   <button type="button">  <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza1/">01</a></button> 
+           
+            <li>    <button type="button"> <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza2/">02</a></button>
+               
+            <li>     <button type="button">   <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza3/">03</a></button>
+                    
+           <li> <button type="button">   <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza4/">04</a></button>
+                
+               
+                    <li>  <button type="button">  <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza5/">05</a></button>
+                    
+               
+                        <li>  <button type="button">  <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza6/">06</a></button>
+                            
+                        <li>  <button type="button">  <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza7/">07</a></button>
+                            
+                                <li>  <button type="button">  <a href="https://milkogamer.github.io/stylowanielistyoluliniewiemcojeszczebowchodzewtonaserioskibidikneesurgerytoomorowciktorzywiedza8/">08</a></button>
+                                
+                              
+                              
+               
+   </ul>
+    
+</center>
+
+
+
 </body>
+<footer>
+    
+</footer>
+<script type="text/javascript">
+    function updateDate() {
+        const dateElement = document.getElementById("date");
+        const currentDate = new Date();
+        dateElement.innerText =""  + currentDate.toLocaleString();
+    }
+
+   
+    updateDate();
+
+   
+    setInterval(updateDate, 1000);
+    </script>
+
+https://milkogamer.github.io/012FORMULARZ/
+
 </html>
